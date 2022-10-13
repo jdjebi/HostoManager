@@ -1,5 +1,5 @@
 <div id="sidebar"
-    class="w-64 fixed top-0 bg-white p-6 border-r border-gray-300 md:h-screen pt-20">
+    class="relative w-64 bg-black flex flex-none flex-col flex-wrap bg-white p-6 md:top-0 border-r border-gray-300 md:h-screen border border-red-400 pt-14">
     <div class="flex flex-col">
         <p class="uppercase text-sm text-gray-600 mb-4 tracking-wider">Général</p>
         <a href="{{ route('dashboard.patients') }}"

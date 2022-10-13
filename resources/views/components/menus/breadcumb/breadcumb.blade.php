@@ -1,7 +1,7 @@
-<nav class="flex border p-4 rounded-2xl shadow-sm bg-white" aria-label="Breadcrumb">
+<nav class="flex border p-4 shadow-sm bg-white mb-4" aria-label="Breadcrumb">
     <ol class="inline-flex items-center space-x-1 md:space-x-3">
         <li class="inline-flex items-center">
-            <a href="#"
+            <a href="{{ route('dashboard') }}"
                 class="inline-flex items-center text-sm font-medium text-black font-bold">
                 <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"
                     xmlns="http://www.w3.org/2000/svg">

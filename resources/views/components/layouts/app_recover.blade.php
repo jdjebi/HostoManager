@@ -25,9 +25,9 @@
 
     @livewire('navigation-menu')
 
-    <div>
+    <div class="flex flex-row flex-wrap h-screen mt-5"> 
         <x-menus.sidebar/>
-        <main class="mt-14 ml-64 bg-gray-100 p-6">
+        <main class="bg-gray-100 flex-1 p-6">
             {{ $slot }}
         </main>
     </div>
